@@ -1,5 +1,7 @@
 # date-names-ex
 
+[![Build Status](https://travis-ci.org/vasiliyaltunin/date-names-ex.svg?branch=master)](https://travis-ci.org/vasiliyaltunin/date-names-ex)
+
 Repository of localized month and day names. Usable for sites, have minified version and separate minified locale files.
 
 
