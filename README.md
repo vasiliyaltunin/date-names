@@ -1,5 +1,7 @@
 [![NPM](https://nodei.co/npm/date-names-ex.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/date-names-ex/)
 
+[![dependencies Status](https://david-dm.org/vasiliyaltunin/date-names-ex/status.svg)](https://david-dm.org/vasiliyaltunin/date-names-ex)[![devDependencies Status](https://david-dm.org/vasiliyaltunin/date-names-ex/dev-status.svg)](https://david-dm.org/vasiliyaltunin/date-names-ex?type=dev)
+
 # date-names-ex [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 [![Build Status](https://travis-ci.org/vasiliyaltunin/date-names-ex.svg?branch=master)](https://travis-ci.org/vasiliyaltunin/date-names-ex)
