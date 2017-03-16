@@ -1,4 +1,4 @@
-# date-names
+# date-names-ex
 
 Repository of localized month and day names. Usable for sites, have minified version and separate minified locale files.
 
