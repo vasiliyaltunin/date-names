@@ -44,7 +44,7 @@ You can fetch a different translation like that:
 
 ```js
 
-var de_date_locale = date_names.en;
+var de_date_locale = date_names.de;
 
 de_date_locale.months              // => ['Januar', 'Februar', 'März', ...]
 de_date_locale.abbreviated_months  // => ['Jan', 'Feb', 'Mär', 'Apr', ...]
