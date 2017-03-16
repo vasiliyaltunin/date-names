@@ -1,32 +1,32 @@
 {
-    "name": "date-names-ex",
-    "version": "0.0.1",
-    "description": "JavaScript repository of localized month and day names for single or separate files use.  Based on Martin Andert code https://github.com/martinandert/date-names",
-    "main": "date-names-ex.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/vasiliyaltunin/date-names-ex.git"
-    },
-    "keywords": [
-        "localization",
-        "translation",
-        "translate",
-        "localize",
-        "month",
-        "weekday",
-        "day",
-        "names",
-        "i18n",
-        "l10n",
-        "date"
-    ],
-    "author": "Vasiliy Altunin",
-    "license": "MPL-2.0",
-    "bugs": {
-        "url": "https://github.com/vasiliyaltunin/date-names-ex/issues"
-    },
-    "homepage": "https://github.com/vasiliyaltunin/date-names-ex#readme"
+  "name": "date-names-ex",
+  "version": "0.0.2",
+  "description": "JavaScript repository of localized month and day names for single or separate files use.  Based on Martin Andert code https://github.com/martinandert/date-names",
+  "main": "date-names-ex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasiliyaltunin/date-names-ex.git"
+  },
+  "keywords": [
+    "localization",
+    "translation",
+    "translate",
+    "localize",
+    "month",
+    "weekday",
+    "day",
+    "names",
+    "i18n",
+    "l10n",
+    "date"
+  ],
+  "author": "Vasiliy Altunin",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/vasiliyaltunin/date-names-ex/issues"
+  },
+  "homepage": "https://github.com/vasiliyaltunin/date-names-ex#readme"
 }

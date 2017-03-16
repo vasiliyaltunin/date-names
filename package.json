@@ -1,6 +1,6 @@
 {
   "name": "date-names-ex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript repository of localized month and day names extended for single or separate files use. Based on Martin Andert code https://github.com/martinandert/date-names",
   "author": "Vasiliy Altunin",
   "license": "MPL-2.0",
@@ -9,8 +9,8 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-        "test": "grunt qunit"
-    },
+    "test": "grunt qunit"
+  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
