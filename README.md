@@ -1,4 +1,6 @@
-# date-names-ex
+[![NPM](https://nodei.co/npm/date-names-ex.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/date-names-ex/)
+
+# date-names-ex [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 [![Build Status](https://travis-ci.org/vasiliyaltunin/date-names-ex.svg?branch=master)](https://travis-ci.org/vasiliyaltunin/date-names-ex)
 
