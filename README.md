@@ -1,10 +1,8 @@
 [![NPM](https://nodei.co/npm/date-names-ex.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/date-names-ex/)
 
-[![dependencies Status](https://david-dm.org/vasiliyaltunin/date-names-ex/status.svg)](https://david-dm.org/vasiliyaltunin/date-names-ex)   [![devDependencies Status](https://david-dm.org/vasiliyaltunin/date-names-ex/dev-status.svg)](https://david-dm.org/vasiliyaltunin/date-names-ex?type=dev)
-
 # date-names-ex [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-[![Build Status](https://travis-ci.org/vasiliyaltunin/date-names-ex.svg?branch=master)](https://travis-ci.org/vasiliyaltunin/date-names-ex)
+[![Build Status](https://travis-ci.org/vasiliyaltunin/date-names-ex.svg?branch=master)](https://travis-ci.org/vasiliyaltunin/date-names-ex)   [![GetBadges Game](https://vasiliyaltunin-date-names-ex.getbadges.io/shield/company/vasiliyaltunin-date-names-ex)](https://vasiliyaltunin-date-names-ex.getbadges.io/?ref=shield-game)   [![GitHub license](https://img.shields.io/badge/license-MPL2-green.svg)](https://raw.githubusercontent.com/vasiliyaltunin/date-names-ex/master/LICENSE)   [![dependencies Status](https://david-dm.org/vasiliyaltunin/date-names-ex/status.svg)](https://david-dm.org/vasiliyaltunin/date-names-ex)   [![devDependencies Status](https://david-dm.org/vasiliyaltunin/date-names-ex/dev-status.svg)](https://david-dm.org/vasiliyaltunin/date-names-ex?type=dev)
 
 Repository of localized month and day names. Usable for sites, have minified version and separate minified locale files.
 
