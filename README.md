@@ -1,6 +1,6 @@
 # date-names
 
-Repository of localized month and day names. Usable in Node.js or in the browser.
+Repository of localized month and day names. Usable for sites, have minified version and separate minified locale files.
 
 
 ## Installation
@@ -8,59 +8,90 @@ Repository of localized month and day names. Usable in Node.js or in the browser
 Install via npm:
 
 ```bash
-% npm install date-names
+% npm install date-names-ex
 ```
 
 ## Usage
 
-The default locale is `en` (English). Thus, a `require('date-names')` implicitly does `require('date-names/en')`.
+Add script to you webpage
 
-```js
-var names = require('date-names');
+```html
 
-names.months              // => ['January', 'February', 'March', ...]
-names.abbreviated_months  // => ['Jan', 'Feb', 'Mar', 'Apr', ...]
-
-names.days                // => ['Sunday', 'Monday', 'Tuesday', ...]
-names.abbreviated_days    // => ['Sun', 'Mon', 'Tue', 'Wed', ...]
-
-names.am                  // => 'AM'
-names.pm                  // => 'PM'
+<script src="../build/date-names-ex.min.js" type="text/javascript"></script>
 ```
 
-You can fetch a different translation by requiring a specific locale:
+Now to get locale you can use `date_names` variable.
 
 ```js
-var names = require('date-names/de');
 
-names.months              // => ['Januar', 'Februar', 'März', ...]
-names.abbreviated_months  // => ['Jan', 'Feb', 'Mär', 'Apr', ...]
+var en_date_locale = date_names.en;
 
-names.days                // => ['Sonntag', 'Montag', 'Dienstag', ...]
-names.abbreviated_days    // => ['So', 'Mo', 'Di', 'Mi', ...]
+en_date_locale.months              // => ['January', 'February', 'March', ...]
+en_date_locale.abbreviated_months  // => ['Jan', 'Feb', 'Mar', 'Apr', ...]
 
-names.am                  // => 'vormittags'
-names.pm                  // => 'nachmittags'
+en_date_locale.days                // => ['Sunday', 'Monday', 'Tuesday', ...]
+en_date_locale.abbreviated_days    // => ['Sun', 'Mon', 'Tue', 'Wed', ...]
+
+en_date_locale.am                  // => 'AM'
+en_date_locale.pm                  // => 'PM'
 ```
 
-English ([en](en.js)), German ([de](de.js)), Finnish ([fi](fi.js)), Brazilian Portuguese ([pt-br](pt-br.js)), Russian ([ru](ru.js)) and Spanish ([es](es.js)) are currently the only supported locales. Pull requests welcome.
+You can fetch a different translation like that:
+
+```js
+
+var de_date_locale = date_names.en;
+
+de_date_locale.months              // => ['Januar', 'Februar', 'März', ...]
+de_date_locale.abbreviated_months  // => ['Jan', 'Feb', 'Mär', 'Apr', ...]
+
+de_date_locale.days                // => ['Sonntag', 'Montag', 'Dienstag', ...]
+de_date_locale.abbreviated_days    // => ['So', 'Mo', 'Di', 'Mi', ...]
+
+de_date_locale.am                  // => 'vormittags'
+de_date_locale.pm                  // => 'nachmittags'
+```
+
+If you need only `Ru` locale, for example, you can use just this local file like that:
+
+```html
+<script src="../build/date-names-ex.ru.min.js" type="text/javascript"></script>
+```
+
+Adn then use it like that:
+
+```js
+
+date_names_ru.months              // => ['Январь', 'Февраль', 'Март', ...]
+date_names_ru.abbreviated_months  // => ['Янв', 'Фев', 'Мар', 'Апр', ...]
+
+date_names_ru.days                // => ['Воскресенье', 'Понедельник', 'Вторник', ...]
+date_names_ru.abbreviated_days    // => ['Вс', 'Пн', 'Вт', 'Ср', ...]
+
+date_names_ru.am                  // => 'до полудня'
+date_names_ru.pm                  // => 'после полудня'
+```
+
+English ([en](src/en.js)), German ([de](src/de.js)), Finnish ([fi](src/fi.js)), Brazilian Portuguese ([pt-br](src/pt-br.js)), Russian ([ru](src/ru.js)) and Spanish ([es](src/es.js)) are currently the only supported locales. Pull requests welcome.
 
 
 ## Contributing
 
 Here's a quick guide:
 
-1. Fork the repo and `make install`.
+1. Fork the repo 
 
-2. Run the tests. We only take pull requests with passing tests, and it's great to know that you have a clean slate: `make test`.
+2. `npm install`
 
-3. Add a test for your change. Only refactoring and documentation changes require no new tests. If you are adding functionality or are fixing a bug, we need a test!
+3. `grunt`
 
-4. Make the test pass.
+4. Make you changes and add test for you functionality if you add new language. Look into `/test` folder.
 
-5. Push to your fork and submit a pull request.
+5. Check that all test passed by running `grunt`
+
+6. Push to your fork and submit a pull request.
 
 
 ## Licence
 
-Released under The MIT License.
+Released under Mozilla Public License Version 2.0

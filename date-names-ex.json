@@ -1,0 +1,26 @@
+{
+    "name": "date-names-ex",
+    "title": "Date-names-ex",
+    "description": "JavaScript repository of localized month and day names for single or separate files use.  Based on Martin Andert code https://github.com/martinandert/date-names",
+    "version": "0.0.1",
+    "homepage": "https://github.com/vasiliyaltunin/date-names-ex",
+    "author": {
+        "name": "Vasiliy Altunin",
+        "email": "skyr@altunin.online",
+        "url": "http://altunin.online"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vasiliyaltunin/date-names-ex.git"
+    },
+    "bugs": "https://github.com/vasiliyaltunin/date-names-ex/issues",
+    "licenses": [
+        {
+            "type": "MPL-2.0",
+            "url": "https://www.mozilla.org/en-US/MPL/2.0/"
+        }
+    ],
+    "dependencies": {
+    },
+    "keywords": []
+}

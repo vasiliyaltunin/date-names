@@ -1,13 +1,20 @@
 {
-  "undef": true,
-  "unused": "vars",
+  "undef": false,
+  "unused": "false",
   "asi": false,
-  "expr": true,
-  "globalstrict": true,
+  "expr": false,
+  "globalstrict": false,
+  "node" : true,
   "globals": {
-    "require": false,
-    "module": false,
-    "exports": false,
-    "console": false
+	"date_names_ru":true,
+	"date_names_en":true,
+	"date_names_de":true,
+	"date_names_es":true,
+	"date_names_fi":true, 
+	"date_names_pt_br":true,
+	"date_names":true,
+	"exports": true,
+	"console": true,
+	"module": true
   }
 }

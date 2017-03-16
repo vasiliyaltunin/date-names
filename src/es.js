@@ -1,6 +1,6 @@
-"use strict";
+/*exported date_names_es*/
 
-module.exports = {
+var date_names_es = { 
   __locale: "es",
   days: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
   abbreviated_days: ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'],

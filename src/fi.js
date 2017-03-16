@@ -1,6 +1,6 @@
-"use strict";
+/*exported date_names_fi*/
 
-module.exports = {
+var date_names_fi = { 
   __locale: "fi",
   days: ['Sunnuntai', 'Maanantai', 'Tiistai', 'Keskiviikko', 'Torstai', 'Perjantai', 'Lauantai'],
   abbreviated_days: ['Su', 'Ma', 'Ti', 'Ke', 'To', 'Pe', 'La'],
