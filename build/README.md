@@ -1,10 +1,11 @@
+[![NPM](https://nodei.co/npm/date-names-ex.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/date-names-ex/)
+
 # date-names-ex [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 [![Build Status](https://travis-ci.org/vasiliyaltunin/date-names-ex.svg?branch=master)](https://travis-ci.org/vasiliyaltunin/date-names-ex)   [![GetBadges Game](https://vasiliyaltunin-date-names-ex.getbadges.io/shield/company/vasiliyaltunin-date-names-ex)](https://vasiliyaltunin-date-names-ex.getbadges.io/?ref=shield-game)   [![GitHub license](https://img.shields.io/badge/license-MPL2-green.svg)](https://raw.githubusercontent.com/vasiliyaltunin/date-names-ex/master/LICENSE)   [![dependencies Status](https://david-dm.org/vasiliyaltunin/date-names-ex/status.svg)](https://david-dm.org/vasiliyaltunin/date-names-ex)   [![devDependencies Status](https://david-dm.org/vasiliyaltunin/date-names-ex/dev-status.svg)](https://david-dm.org/vasiliyaltunin/date-names-ex?type=dev)
 
 Repository of localized month and day names. Usable for sites, have minified version and separate minified locale files.
 
-Based on Martin Andert code [(https://github.com/martinandert/date-names)](https://github.com/martinandert/date-names)
 
 ## Installation
 
@@ -43,7 +44,7 @@ You can fetch a different translation like that:
 
 ```js
 
-var de_date_locale = date_names.en;
+var de_date_locale = date_names.de;
 
 de_date_locale.months              // => ['Januar', 'Februar', 'März', ...]
 de_date_locale.abbreviated_months  // => ['Jan', 'Feb', 'Mär', 'Apr', ...]
@@ -75,7 +76,7 @@ date_names_ru.am                  // => 'до полудня'
 date_names_ru.pm                  // => 'после полудня'
 ```
 
-English (en), German (de), Finnish (fi), Brazilian Portuguese (pt-br), Russian (ru) and Spanish (es) are currently the only supported locales. Pull requests welcome.
+English ([en](src/en.js)), German ([de](src/de.js)), Finnish ([fi](src/fi.js)), Brazilian Portuguese ([pt-br](src/pt-br.js)), Russian ([ru](src/ru.js)) and Spanish ([es](src/es.js)) are currently the only supported locales. Pull requests welcome.
 
 
 ## Contributing
